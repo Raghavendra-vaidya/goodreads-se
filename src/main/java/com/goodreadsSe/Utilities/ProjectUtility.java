@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
 
 public class ProjectUtility {
 
-    public void captureScreenshot(WebDriver driver, ITestResult result)
+    public static void captureScreenshot(WebDriver driver, ITestResult result)
     {
         TakesScreenshot ts = (TakesScreenshot) driver;
         File screenShotSource = ts.getScreenshotAs(OutputType.FILE);

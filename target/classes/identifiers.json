@@ -1,0 +1,11 @@
+{
+  "pageContent": "//div[@class='content']",
+  "signIn": "//a[text()='Sign In']",
+  "signInWithEmail": "//button[contains(text(),'Sign in with email')]",
+  "email_name": "email",
+  "password_name": "password",
+  "signInSubmit_id": "signInSubmit",
+  "searchBar": "//input[@name='q']",
+  "signOut": "(//a[text()='Sign out'])[1]"
+
+}
