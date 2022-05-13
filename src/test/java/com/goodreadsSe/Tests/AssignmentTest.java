@@ -51,8 +51,8 @@ public class AssignmentTest extends Base {
         signin.waitForSignInPageToLoad();
         softAssert.assertTrue(signin.getEmailField().isDisplayed());
         softAssert.assertTrue(signin.getPasswordField().isDisplayed());
-        signin.enterEmail("");
-        signin.enterPassword("");
+        signin.enterEmail("rkvaidya58@gmail.com");
+        signin.enterPassword("Vidyaganesha");
         signin.clickOnSignIn();
 
         /***Search book and mark it to read**/
@@ -61,6 +61,8 @@ public class AssignmentTest extends Base {
         dashboard.searchBooks(bookName);
         softAssert.assertTrue(dashboard.isSearchResultDisplayed());
         dashboard.markBookToRead();
+        try {Thread.sleep(4000);}
+        catch (InterruptedException e) {e.printStackTrace();}
         dashboard.navigateToMyBooks();
         dashboard.removeBookFromMyList();
         driver.switchTo().alert().accept();

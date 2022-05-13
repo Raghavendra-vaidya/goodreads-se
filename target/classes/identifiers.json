@@ -1,11 +1,23 @@
 {
-  "pageContent": "//div[@class='content']",
+  "landingPageContent": "//div[@class='content']",
   "signIn": "//a[text()='Sign In']",
+
   "signInWithEmail": "//button[contains(text(),'Sign in with email')]",
+
+  "authScreenContent": "//div[@id='authportal-center-section']/..",
   "email_name": "email",
   "password_name": "password",
   "signInSubmit_id": "signInSubmit",
+
+  "dashboardContent": "//body",
+  "profile": "(//img[@alt='Raghavendra Vaidya'])[1]/..",
   "searchBar": "//input[@name='q']",
+  "searchResultText": "(//*[text()='When Breath Becomes Air'])[1]",
+  "wantToRead": "//div[starts-with(@id,'1_book')]/div[1]/form/button",
+  "myBooks": "My Books",
+  "removeBookFromList" : "//tbody[@id='booksBody']/tr[1]/td[@class='field actions']/div/div/a",
+  "removeMessage": "//div[contains(text(),'removed from your books')]",
+
   "signOut": "(//a[text()='Sign out'])[1]"
 
 }

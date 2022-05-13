@@ -17,7 +17,7 @@ public class Dashboard  extends Requirements{
     String htmlBody = "//body";
     String searchField = jsonFileObject.get("searchBar").toString();
     String markToRead = jsonFileObject.get("wantToRead").toString();
-    String myBooks = jsonFileObject.get("wantToRead").toString();
+    String myBooks = jsonFileObject.get("myBooks").toString();
     String removeBookFromList = jsonFileObject.get("removeBookFromList").toString();
 
     String profile = jsonFileObject.get("profile").toString();

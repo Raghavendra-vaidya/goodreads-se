@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="59870" started-at="2022-05-14T01:57:30 IST" finished-at="2022-05-14T01:58:30 IST">
+    <groups>
+    </groups>
+    <test name="goodreads-se" duration-ms="59870" started-at="2022-05-14T01:57:30 IST" finished-at="2022-05-14T01:58:30 IST">
+      <class name="com.goodreadsSe.Tests.AssignmentTest">
+        <test-method status="PASS" signature="clearScreenshots()[pri:0, instance:com.goodreadsSe.Tests.AssignmentTest@7f13d6e]" name="clearScreenshots" is-config="true" duration-ms="17" started-at="2022-05-14T01:57:30 IST" finished-at="2022-05-14T01:57:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearScreenshots -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.goodreadsSe.Tests.AssignmentTest@7f13d6e]" name="setUp" is-config="true" duration-ms="41045" started-at="2022-05-14T01:57:30 IST" finished-at="2022-05-14T01:58:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGoodreads()[pri:0, instance:com.goodreadsSe.Tests.AssignmentTest@7f13d6e]" name="testGoodreads" duration-ms="16731" started-at="2022-05-14T01:58:11 IST" description="Login to goodreads and search book, mark it to read, remove and logout" finished-at="2022-05-14T01:58:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoodreads -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.goodreadsSe.Tests.AssignmentTest@7f13d6e]" name="tearDown" is-config="true" duration-ms="2069" started-at="2022-05-14T01:58:27 IST" finished-at="2022-05-14T01:58:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.goodreadsSe.Tests.AssignmentTest -->
+    </test> <!-- goodreads-se -->
+  </suite> <!-- Default Suite -->
+</testng-results>
