@@ -24,6 +24,7 @@ Web application automation using selenium 4 and java.
 
 1. Java 1.8 should be installed locally
 2. IDE to edit code
+3. chrome and firefox on the system 
 
 **Steps**:
 
