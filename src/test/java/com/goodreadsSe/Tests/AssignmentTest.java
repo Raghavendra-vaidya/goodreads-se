@@ -25,6 +25,7 @@ public class AssignmentTest extends Base {
 
     @BeforeSuite
     public void clearScreenshots(){
+        /***clear out the previous run test screenshots**/
         ProjectUtility.deleteScreenShots();
     }
 

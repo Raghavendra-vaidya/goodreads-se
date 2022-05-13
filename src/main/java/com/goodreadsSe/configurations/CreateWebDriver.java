@@ -18,6 +18,8 @@ public class CreateWebDriver {
     public static Integer implicitWaitTime = Integer.valueOf(implicTimeString);
 
     public static WebDriver instance(String browser){
+
+        /***Handle different browser machanism**/
         if(browser.equalsIgnoreCase("chrome"))
         {
             WebDriverManager.chromedriver().setup();
@@ -34,6 +36,7 @@ public class CreateWebDriver {
             driver = new FirefoxDriver(fops);
 
         }
+        /***After initiation of browser instance, land user to the required application.**/
         driver.manage().window().maximize();
         driver.get(url);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWaitTime));
