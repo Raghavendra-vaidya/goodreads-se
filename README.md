@@ -1,5 +1,5 @@
-# goodreads-se
-Web application automation using selenium 4 and java.
+# goodreads-se 
+Web application automation using selenium 4 and java. :tada:
 ---
 ### Stack involved:
 
