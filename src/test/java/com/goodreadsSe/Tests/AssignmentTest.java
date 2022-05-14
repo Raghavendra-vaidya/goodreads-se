@@ -53,7 +53,7 @@ public class AssignmentTest extends Base {
         softAssert.assertTrue(signin.getEmailField().isDisplayed());
         softAssert.assertTrue(signin.getPasswordField().isDisplayed());
         signin.enterEmail("rkvaidya58@gmail.com");
-        signin.enterPassword("Vidyaganesha");
+        signin.enterPassword(""); // removed the password purposely
         signin.clickOnSignIn();
 
         /***Search book and mark it to read**/
