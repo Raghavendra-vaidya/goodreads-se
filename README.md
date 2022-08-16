@@ -1,5 +1,5 @@
 # goodreads-se 
-Web application automation using selenium 4 and java. :tada:
+Web application automation using selenium 4 :tada:
 ---
 ### Stack involved:
 
@@ -23,8 +23,8 @@ Web application automation using selenium 4 and java. :tada:
 **Pre-requisites**:
 
 1. Java 1.8 should be installed locally
-2. IDE to edit code
-3. chrome and firefox on the system 
+2. Chrome and firefox on the system 
+3. Any preferred IDE
 
 **Steps**:
 
