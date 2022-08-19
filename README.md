@@ -56,4 +56,5 @@ Web application automation using selenium 4 :tada:
 2. testNG default report
 
 <img width="1281" alt="image" src="https://user-images.githubusercontent.com/30006440/168386798-da2d61db-69c9-459e-831a-7589c4dea38d.png">
-
+---
+CI:
