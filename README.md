@@ -59,4 +59,4 @@ Web application automation using selenium 4 :tada:
 
 ---
 
-CI:
+CI(WIP):
