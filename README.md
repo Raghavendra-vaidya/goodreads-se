@@ -6,7 +6,7 @@ Web application automation using selenium 4 :tada:
 1. Selenium 4
 3. core java
 4. testNG
-5. Extent reports
+5. Extent reports 5
 6. bonigarcia WebDriverManager to handle browser drivers automatically
 7. Build tool: Maven
 8. Test runner: Maven surefire plugin
