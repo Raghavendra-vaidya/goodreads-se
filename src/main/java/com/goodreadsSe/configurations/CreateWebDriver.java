@@ -22,19 +22,16 @@ public class CreateWebDriver {
         /***Handle different browser machanism**/
         if(browser.equalsIgnoreCase("chrome"))
         {
-            WebDriverManager.chromedriver().setup();
             ChromeOptions cops = new ChromeOptions();
-            cops.addArguments("--headless");
-            driver = new ChromeDriver(cops);
+            cops.setHeadless(true);
+            driver = WebDriverManager.chromedriver().capabilities(cops).create();
 
         }
         else if (browser.equalsIgnoreCase("firefox"))
         {
-            WebDriverManager.firefoxdriver().setup();
             FirefoxOptions fops = new FirefoxOptions();
-            fops.addArguments("--headless");
-            driver = new FirefoxDriver(fops);
-
+            fops.setHeadless(true);
+            driver = WebDriverManager.firefoxdriver().capabilities(fops).create();
         }
         /***After initiation of browser instance, land user to the required application.**/
         driver.manage().window().maximize();
