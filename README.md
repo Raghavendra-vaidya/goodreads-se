@@ -43,10 +43,6 @@ Web application automation using selenium 4 :tada:
 6. Headless execution
 
 
-### Execution results:
----
-<img width="1429" alt="image" src="https://user-images.githubusercontent.com/30006440/168386240-6fa358a9-b0b8-4d54-9ae3-abb75ac37e5e.png">
-
 ### Reports:
 
 1. Extent report html
