@@ -1,5 +1,5 @@
 # goodreads-se 
-Web application automation using selenium 4 
+Web application automation using selenium 4 :desktop_computer:
 ---
 ### Stack involved:
 
