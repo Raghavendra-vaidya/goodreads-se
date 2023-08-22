@@ -3,7 +3,6 @@
 <suite name="Goodreads Test Suite">
     <listeners>
         <listener class-name="com.goodreadsSe.Utilities.TestListener"></listener>
-        <listener class-name="com.goodreadsSe.Utilities.ReporterExtent"></listener>
     </listeners>
 
     <test verbose="2" preserve-order="true" name="chromeTests" thread-count="5">
