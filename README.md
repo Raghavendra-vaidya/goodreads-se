@@ -1,5 +1,6 @@
 # goodreads-se.
 Web application automation using selenium 4 :computer:
+This is done as a coding challenge.
 ---
 ### Stack involved:
 
